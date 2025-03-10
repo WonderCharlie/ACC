@@ -2,7 +2,7 @@
 This repository contains the core implementation of both ACC and DCQCN congestion control algorithms in the Linux kernel, as presented in the paper [Revisiting Congestion Control for Lossless Ethernet(NSDI'24)](https://www.usenix.org/conference/nsdi24/presentation/zhang-yiran).
 
 ## Introduction
-This guide provides the steps to replace the RXE code in the Linux kernel with your custom RXE code and compile the kernel. We will use the Linux kernel version 5.4.127 for this process. The kernel source can be downloaded from the official Linux Kernel website.
+This guide provides the steps to replace the RXE code in the Linux kernel with your custom RXE code and compile the kernel. We use the Linux kernel version 5.4.127. The kernel source can be downloaded from the official Linux Kernel website.
 
 ## Prerequisites
 Before starting, ensure you have the following tools installed:
@@ -136,4 +136,4 @@ lsmod | grep rxe
 If the RXE module is loaded, it will be listed in the output.
 
 ## Final
-You have successfully replaced the RXE code in the Linux kernel with your custom RXE code and compiled the kernel. This version includes the ACC and DCQCN congestion control schemes for efficient lossless Ethernet operation, as described in the paper by Y Zhang et al. If you encounter any issues, check the kernel logs using dmesg for troubleshooting.
+If you encounter any issues, check the kernel logs using dmesg for troubleshooting.
