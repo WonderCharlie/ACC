@@ -9,7 +9,7 @@ author = {Yiran Zhang and Qingkai Meng and Chaolei Hu and Fengyuan Ren},
 title = {Revisiting Congestion Control for Lossless Ethernet},
 booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
 year = {2024},
-pages = {131--148},
+pages = {131--148}
 }
 
 ## Prerequisites
